@@ -1,0 +1,26 @@
+# Incorporating Higher-order Structural Information for Graph Clustering
+We use these codes to replicate the primary experiment from our paper. We will release all source codes for experiments and baselines once we have cleaned them up.
+
+## Environments
++ Python 3.8
++ PyTorch 1.9.1
+
+## Datasets
++ DBLP: https://dblp.uni-trier.de
+
+## Code
++ HeroGCN.py: The main part of our model includes the training process.
++ test.py: test the clustering performance of our current model. 
++ utils.py: tools to load data from the datasets.
++ evaluation.py: code used to evaluate the clustering performance of our model.
++ pretrain.py: pretrain the autoencoder used in our model.
+
+## Best Model
+This folder contains our best trained models, which can be loaded directly for testing the clustering performance.
+
+You can run our codes using either of the following commands: 
+
+**'python test.py --name dblp'**
+or **'python HeroGCN.py --name dblp'.** 
+
+These commands will trigger the testing procedure or the training procedure for our model, allowing you to assess its efficiency using the DBLP dataset.
