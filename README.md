@@ -16,7 +16,7 @@ We use these codes to replicate the primary experiment from our paper. We will r
 + pretrain.py: pretrain the autoencoder used in our model.
 
 ## Best Model
-This folder contains our best trained models, which can be loaded directly for testing the clustering performance.
+This folder contains our best trained model, which can be loaded directly for testing the clustering performance. Since the file is too large, please unzip them before you run the codes.
 
 You can run our codes using either of the following commands: 
 
